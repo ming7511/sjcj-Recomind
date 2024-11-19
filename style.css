@@ -1,0 +1,135 @@
+/* 全局样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* 淡蓝色背景 */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 页眉样式 */
+header {
+    background-color: #007acc; /* 深蓝色 */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+
+/* 主内容样式 */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #007acc;
+    text-align: center;
+}
+
+/* 表单样式 */
+form {
+    background-color: #ffffff; /* 白色背景 */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #007acc;
+}
+
+textarea, input[type="file"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #cce7ff;
+    border-radius: 5px;
+    background-color: #f7fbff;
+    font-size: 1em;
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+/* 分析结果样式 */
+#results-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e7f2fc;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #005f99;
+    font-weight: bold;
+}
+
+#data-container .card {
+    background-color: #f0f8ff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#data-container .card a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#data-container .card a:hover {
+    text-decoration: underline;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #007acc;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9em;
+}

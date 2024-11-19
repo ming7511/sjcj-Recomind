@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomind荐宝</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🔍 Recomind荐宝</h1>
+    </header>
+
+    <main>
+        <!-- 用户输入区域 -->
+        <section id="input-section">
+            <h2>输入您的内容</h2>
+            <form id="input-form">
+                <label for="text-input">文字输入：</label>
+                <textarea id="text-input" placeholder="请输入要分析的文字"></textarea>
+                
+                <label for="image-input">上传图片：</label>
+                <input type="file" id="image-input" accept="image/*">
+                
+                <button type="button" id="submit-button">✨ 开始分析</button>
+            </form>
+        </section>
+
+        <!-- 分析结果展示 -->
+        <section id="results-section">
+            <h2>分析结果</h2>
+            <div id="keywords">
+                <h3>关键词提取：</h3>
+                <ul id="keywords-list">
+                    <!-- 动态生成关键词 -->
+                </ul>
+            </div>
+            <div id="analysis">
+                <h3>分析结论：</h3>
+                <p id="analysis-result">分析结果将在此显示。</p>
+            </div>
+            <div id="crawled-data">
+                <h3>相关数据：</h3>
+                <div id="data-container">
+                    <!-- 动态生成的爬取数据 -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 AI关键词分析工具 | 设计更智能</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
